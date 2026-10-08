@@ -98,7 +98,11 @@ a:hover { color: var(--terracotta-dark); }
   color: var(--ink);
 }
 .brand:hover { color: var(--ink); }
-.brand-logo { width: 36px; height: 36px; border-radius: 10px; object-fit: contain; }
+.brand-logo { width: auto; height: 40px; }
+.brand-logo + .brand-name { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.hero-logo { width: min(520px, 100%); height: auto; margin-bottom: 8px; }
+.hero-logo + .hero-text { display: none; }
+.footer-logo { width: auto; height: 36px; flex-basis: 100%; max-width: 100%; object-fit: contain; object-position: left; margin-bottom: 4px; }
 .brand-name { font-family: var(--font-head); font-size: 1.1rem; }
 .nav-list {
   display: flex;

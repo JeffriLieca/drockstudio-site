@@ -7,7 +7,7 @@ Static website for D'Rock Studio. Plain HTML + CSS + a few lines of JS. No build
 - `index.html`: the whole page
 - `styles.css`: styles and colour palette (CSS variables at the top)
 - `script.js`: shows a placeholder box when an image is missing, sets the footer year
-- `favicon.svg`: placeholder favicon
+- `favicon.png`: browser tab icon (ICONMARK)
 - `assets/`: images
 - `CNAME`: custom domain for GitHub Pages (must contain exactly `drockstudio.com`)
 
@@ -20,8 +20,10 @@ Drop your own files into `assets/` using the same names. Nothing else needs to c
 | `assets/hero.jpg` | Hero background | 2000 x 1125 (16:9) |
 | `assets/jepret-1.jpg` ... `jepret-4.jpg` | Jepret screenshot gallery | 1600 x 900 (16:9) |
 | `assets/og.jpg` | Social share preview (Open Graph) | 1200 x 630 |
-| `assets/logo.png` | Logo next to the studio name, and Apple touch icon | 512 x 512, square |
-| `favicon.svg` | Browser tab icon | square SVG |
+| `assets/logo.png` | Full-colour logo in the header | about 160 px tall, transparent PNG |
+| `assets/logo-white.png` | White logo in the hero and footer | about 360 px tall, transparent PNG |
+| `assets/apple-touch-icon.png` | Phone home-screen icon | 180 x 180 |
+| `favicon.png` | Browser tab icon | 64 x 64 |
 
 If an image is missing, the page shows a neutral striped box labelled with the file name (the logo is simply hidden). Keep JPGs under ~300 KB so the page stays fast.
 
