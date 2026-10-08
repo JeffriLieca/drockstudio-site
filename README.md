@@ -47,3 +47,5 @@ git push
 ```
 
 The live site updates within a minute or two.
+
+When you replace an image but keep its file name, bump the `?v=` number after that file in `index.html` (for example `?v=2` to `?v=3`). Otherwise browsers can keep showing the old image for a while.
