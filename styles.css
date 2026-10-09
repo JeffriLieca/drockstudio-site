@@ -303,6 +303,18 @@ a:hover { color: var(--terracotta-dark); }
 .polaroid:hover { transform: rotate(0) scale(1.02); }
 
 /* About / contact */
+.company {
+  margin-top: 2em;
+  background: var(--sand);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+}
+.company h3 { margin-bottom: 0.4em; }
+.company dl { margin: 0; }
+.company div { display: flex; flex-wrap: wrap; gap: 0 12px; padding: 6px 0; border-bottom: 1px dashed rgba(145,109,82,0.4); }
+.company div:last-child { border-bottom: 0; }
+.company dt { flex: 0 0 8.5em; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 800; color: var(--terracotta); padding-top: 0.25em; }
+.company dd { margin: 0; font-weight: 700; overflow-wrap: anywhere; }
 .email { font-size: clamp(1.15rem, 4vw, 1.5rem); font-weight: 800; overflow-wrap: anywhere; }
 .social-links {
   list-style: none;
